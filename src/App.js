@@ -8,7 +8,9 @@ import './App.css';
 //import ClassClick from './components/ClassClick'
 //import EventBind from './components/EventBind'
 //import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
+//import NameList from './components/NameList'
+import Stylesheet from './components/Stylesheet'
+
 
 function App() {
   return (
@@ -26,7 +28,8 @@ function App() {
       //<ClassClick />
       //<EventBind />
       //<UserGreeting />
-      <NameList />
+      //<NameList />
+      <Stylesheet primary = {true}/>
       }
       
     </div>
