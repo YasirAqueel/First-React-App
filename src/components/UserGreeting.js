@@ -40,7 +40,7 @@ class UserGreeting extends Component {
 
 // #short-circuit-operator-approach (prefferred 2)
 render(){
-    return this.state.isLoggedIn && <div>Hello Yasir</div>
+    return this.state.isLoggedIn && <div>Hello Yasir Aqueel</div>
 }
 
 }
