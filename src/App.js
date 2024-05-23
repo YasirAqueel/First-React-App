@@ -9,7 +9,8 @@ import './App.css';
 //import EventBind from './components/EventBind'
 //import UserGreeting from './components/UserGreeting'
 //import NameList from './components/NameList'
-import Stylesheet from './components/Stylesheet'
+//import Stylesheet from './components/Stylesheet'
+import Form from './components/Form'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       //<EventBind />
       //<UserGreeting />
       //<NameList />
-      <Stylesheet primary = {true}/>
+      //<Stylesheet primary = {true}/>
+      <Form />
       }
       
     </div>
