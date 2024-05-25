@@ -10,8 +10,11 @@ import './App.css';
 //import UserGreeting from './components/UserGreeting'
 //import NameList from './components/NameList'
 //import Stylesheet from './components/Stylesheet'
-import Form from './components/Form'
-
+//import Form from './components/Form'
+//import LifecycleA from './components/LifecycleA'
+//import ParentComp from './components/ParentComp'
+//import RefDemo from './components/RefDemo'
+import FocusInput from './components/FocusInput'
 
 function App() {
   return (
@@ -31,7 +34,11 @@ function App() {
       //<UserGreeting />
       //<NameList />
       //<Stylesheet primary = {true}/>
-      <Form />
+      //<Form />
+      //<LifecycleA />
+      //<ParentComp />
+      //<RefDemo />
+      <FocusInput />
       }
       
     </div>
