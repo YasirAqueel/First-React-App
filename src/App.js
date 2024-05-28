@@ -14,7 +14,10 @@ import './App.css';
 //import LifecycleA from './components/LifecycleA'
 //import ParentComp from './components/ParentComp'
 //import RefDemo from './components/RefDemo'
-import FocusInput from './components/FocusInput'
+//import FocusInput from './components/FocusInput'
+//import PortalDemo from './components/PortalDemo'
+import ClickCounter from './components/ClickCounter'
+import HoverCounter from './components/HoverCounter'
 
 function App() {
   return (
@@ -38,7 +41,12 @@ function App() {
       //<LifecycleA />
       //<ParentComp />
       //<RefDemo />
-      <FocusInput />
+      //<FocusInput />
+      //<PortalDemo />
+
+      <ClickCounter />
+
+      //<HoverCounter />
       }
       
     </div>
