@@ -16,8 +16,10 @@ import './App.css';
 //import RefDemo from './components/RefDemo'
 //import FocusInput from './components/FocusInput'
 //import PortalDemo from './components/PortalDemo'
-import ClickCounter from './components/ClickCounter'
-import HoverCounter from './components/HoverCounter'
+//import ClickCounter from './components/ClickCounter'
+//import HoverCounter from './components/HoverCounter'
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
@@ -44,9 +46,14 @@ function App() {
       //<FocusInput />
       //<PortalDemo />
 
-      <ClickCounter />
+      //<ClickCounter />
 
       //<HoverCounter />
+
+        <UserProvider value = "Yasir">
+          <ComponentC />
+        </UserProvider>
+
       }
       
     </div>
