@@ -18,8 +18,12 @@ import './App.css';
 //import PortalDemo from './components/PortalDemo'
 //import ClickCounter from './components/ClickCounter'
 //import HoverCounter from './components/HoverCounter'
-import ComponentC from './components/ComponentC';
-import { UserProvider } from './components/userContext';
+//import ComponentC from './components/ComponentC';
+//import { UserProvider } from './components/userContext';
+//import MyCounter from './components/MyCounter'
+//import UseeffectCounter from './components/UseeffectCounter'
+//import UseeffectHookMouse from './components/UseeffectHookMouse'
+import MouseContainer from './components/MouseContainer'
 
 function App() {
   return (
@@ -50,9 +54,14 @@ function App() {
 
       //<HoverCounter />
 
-        <UserProvider value = "Yasir">
+        /* <UserProvider value = "Yasir">
           <ComponentC />
-        </UserProvider>
+        </UserProvider> */
+
+          //<MyCounter />
+          //<UseeffectCounter />
+          //<UseeffectHookMouse />
+          <MouseContainer />
 
       }
       
